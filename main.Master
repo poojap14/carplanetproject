@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="carplanet.main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+      
+    </asp:ContentPlaceHolder>
+     <link href="style.css" rel="stylesheet" />
+</head>
+<body bgcolor="black">
+     <form id="form1" runat="server">
+     <div class="navbar">
+            <h1 style="color:thistle;font-family:'Harlow Solid';font-size:50px">car planet</h1>
+
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.aspx">About</a></li>
+                <li><a href="spare.aspx">Buy spare parts</a></li>
+                <li><a href="appointment.aspx">Book Appointment</a></li>
+                <li><a href="start.aspx">Login</a></li>
+            </ul>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+
+
+
+
+
+            </asp:ContentPlaceHolder>
+       
+
+
+    </form>
+</body>
+</html>
+
+    <footer id="footer">
+       Car planet<br />
+    Copyright@2024<br />
+    Chennai | Mumbai | Hyderabad | Banglore</footer>
